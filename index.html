@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Serkan Öztürk | Bewerbungshomepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </head>
+
+  <body>
+    <!-- bottom-bar (alte topbar) -->
+    <div class="bottom-bar">
+      <span><ion-icon name="call-outline"></ion-icon> 0174 375 975 7</span>
+      <ul>
+        <li>
+          <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- navigation -->
+    <nav>
+      <div class="logo">
+        <a href="#top"> <img src="Bilder/S.png" alt="Logo" /></a>
+      </div>
+      <div class="menu-knopf">
+        <a href="javascript:void(0);"
+          ><ion-icon name="menu-outline"></ion-icon
+        ></a>
+      </div>
+      <ul class="menu">
+        <li><a href="#ueber-mich">Über mich</a></li>
+        <li><a href="#lebenslauf">Lebenslauf</a></li>
+        <li><a href="#kenntnisse">Kenntnisse</a></li>
+        <li><a href="#projekte">Projekte</a></li>
+        <li><a href="#unterlagen">Unterlagen</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <!-- Bereich mit Hintergrundbild -->
+    <div class="hintergrund">
+      <h1>Serkan Öztürk</h1>
+      <h2>Bewerbungshomepage</h2>
+    </div>
+
+    <!-- Hauptbereich der Seite -->
+    <div class="hauptbereich">
+      <!-- Über mich -->
+      <section id="ueber-mich">
+        <h3>Über mich</h3>
+        <img
+          src="Bilder/Bewerbungsfoto.jpg"
+          alt="Profilbild"
+          class="bewerbungsfoto"
+        />
+        <p class="ueber-mich-text">
+          Hallo, mein Name ist Serkan Öztürk und ich bin 34 Jahre alt. Schon in
+          meiner Jugend habe ich eine tiefe Begeisterung für Technik entwickelt.
+          Als Mitglied des Computer Club House in Esslingen, dem zweiten seiner
+          Art weltweit, habe ich früh meine Leidenschaft für Technologie und
+          Innovation entdeckt, was mich dazu inspiriert hat, eine Karriere als
+          Softwareentwickler einzuschlagen. Mein Weg führte mich zur Umschulung
+          zum Fachinformatiker für Anwendungsentwicklung bei Comcave in
+          Stuttgart, wo ich mir wichtige Grundlagen in Microsoft SQL, Java und
+          JavaScript aneignete. Zusätzlich habe ich mein Wissen durch private
+          Kurse in C#, HTML und CSS weiter vertieft. Der nächste Schritt in
+          meiner Karriere ist ein Praktikum, um meine Umschulung erfolgreich
+          abzuschließen und das Gelernte in der Praxis umzusetzen. Ich bringe
+          nicht nur solide technische Kenntnisse mit, sondern auch eine positive
+          Einstellung und die Bereitschaft, stets Neues zu lernen. Mein Talent
+          für Problemlösungen und mein Interesse an anspruchsvollen Projekten
+          machen mich zu einem idealen Kandidaten für ein Praktikum. Ich bin ein
+          überzeugter Teamplayer, der gerne mit anderen an Projekten arbeitet.
+          Meiner Meinung nach fördert Teamarbeit kreative Ideen und verbessert
+          das Gesamtergebnis. Ich freue mich darauf, meine Fähigkeiten in einem
+          Praktikum unter Beweis zu stellen und dabei gleichzeitig wertvolle
+          praktische Erfahrungen zu sammeln. Wenn Sie Interesse an einem
+          Gespräch haben, können Sie mich gerne über das Kontaktformular
+          kontaktieren. Ich freue mich darauf, von Ihnen zu hören.
+        </p>
+      </section>
+
+      <!-- Lebenslauf -->
+      <section id="lebenslauf">
+        <h3>Lebenslauf</h3>
+        <div class="bild-container">
+          <img
+            src="Bilder/Öztürk_Serkan_Lebenslauf1.png"
+            alt="Lebenslauf Bild 1"
+            class="lebenslauf-bild"
+          />
+          <img
+            src="Bilder/Öztürk_Serkan_Lebenslauf2.png"
+            alt="Lebenslauf Bild 2"
+            class="lebenslauf-bild"
+          />
+        </div>
+      </section>
+
+      <!-- Kenntnisse -->
+      <section id="kenntnisse">
+        <h3>Kenntnisse</h3>
+
+        <h4>EDV-Kenntnisse</h4>
+        <div class="kenntnis">
+          <label>Microsoft Word</label>
+          <div class="balken">
+            <div class="fortschritt" style="width: 60%"></div>
+          </div>
+        </div>
+        <!-- Weitere Kenntnisse hier einfügen -->
+
+        <h4>Sprachkenntnisse</h4>
+        <div class="kenntnis">
+          <label>Deutsch</label>
+          <div class="balken">
+            <div class="fortschritt" style="width: 100%"></div>
+          </div>
+        </div>
+        <!-- Weitere Kenntnisse hier einfügen -->
+      </section>
+
+      <!-- Projekte -->
+      <section id="projekte">
+        <h3>Projekte</h3>
+        <!-- Weitere Inhalte -->
+      </section>
+
+      <!-- Unterlagen -->
+      <section id="unterlagen">
+        <h3>Unterlagen</h3>
+        <div id="arbeitszeugnis">
+          <img
+            src="Bilder/Arbeitszeugniss_Daimler_(2).png"
+            alt="arbeitszeugniss"
+            class="arbeitszeugniss-png"
+            onclick="showFullImage(this)"
+          />
+        </div>
+        <div id="other-documents">
+          <div id="projects">
+            <ul>
+              <li>
+                <img
+                  src="Bilder/small_0.png"
+                  alt="Bild 0"
+                  loading="lazy"
+                  onclick="showFullImage(this)"
+                />
+              </li>
+              <li>
+                <img
+                  src="Bilder/small_1.png"
+                  alt="Bild 1"
+                  loading="lazy"
+                  onclick="showFullImage(this)"
+                />
+              </li>
+              <li>
+                <img
+                  src="Bilder/small_2.png"
+                  alt="Bild 2"
+                  loading="lazy"
+                  onclick="showFullImage(this)"
+                />
+              </li>
+              <li>
+                <img
+                  src="Bilder/small_3.png"
+                  alt="Bild 3"
+                  loading="lazy"
+                  onclick="showFullImage(this)"
+                />
+              </li>
+              <li>
+                <img
+                  src="Bilder/small_4.png"
+                  alt="Bild 4"
+                  loading="lazy"
+                  onclick="showFullImage(this)"
+                />
+              </li>
+              <li>
+                <img
+                  src="Bilder/small_5.png"
+                  alt="Bild 5"
+                  loading="lazy"
+                  onclick="showFullImage(this)"
+                />
+              </li>
+              <li>
+                <img
+                  src="Bilder/small_6.png"
+                  alt="Bild 6"
+                  loading="lazy"
+                  onclick="showFullImage(this)"
+                />
+              </li>
+              <li>
+                <img
+                  src="Bilder/small_7.png"
+                  alt="Bild 7"
+                  loading="lazy"
+                  onclick="showFullImage(this)"
+                />
+              </li>
+              <li>
+                <img
+                  src="Bilder/small_8.png"
+                  alt="Bild 8"
+                  loading="lazy"
+                  onclick="showFullImage(this)"
+                />
+              </li>
+              <li>
+                <img
+                  src="Bilder/small_9.png"
+                  alt="Bild 9"
+                  loading="lazy"
+                  onclick="showFullImage(this)"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kontakt -->
+      <section id="kontakt">
+        <h3>Kontakt</h3>
+        <hr />
+        <form
+          action="https://form.taxi/s/jbb0m8gm"
+          method="POST"
+          id="kontakt-formular"
+        >
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="Name"
+            placeholder="Dein Name"
+            required
+          />
+
+          <label for="email">E-Mail:</label>
+          <input
+            type="email"
+            id="email"
+            name="Email"
+            placeholder="Deine E-Mail-Adresse"
+            required
+          />
+
+          <label for="nachricht">Nachricht:</label>
+          <textarea
+            id="nachricht"
+            name="Nachricht"
+            placeholder="Deine Nachricht"
+            rows="4"
+            required
+          ></textarea>
+
+          <div class="checkbox-container">
+            <input
+              type="checkbox"
+              id="datenschutz"
+              name="Datenverarbeitung bestätigt"
+              value="Ja"
+              required
+            />
+            <label for="datenschutz"
+              >Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben zum
+              Zwecke der Anfragebearbeitung einverstanden bin.</label
+            >
+          </div>
+
+          <input type="submit" value="Absenden" />
+        </form>
+      </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- script für menü umschaltung -->
+    <script>
+      $(document).ready(function () {
+        $(".menu-knopf").on("click", function () {
+          if ($(".menu").hasClass("active")) {
+            $(".menu").removeClass("active"); /* Entfernt die 'active'-Klasse */
+            $(this)
+              .find("a")
+              .html(
+                "<ion-icon name='menu-outline'></ion-icon>"
+              ); /* Ändert das Symbol */
+          } else {
+            $(".menu").addClass("active"); /* Fügt die 'active'-Klasse hinzu */
+            $(this)
+              .find("a")
+              .html(
+                "<ion-icon name='close-outline'></ion-icon>"
+              ); /* Ändert das Symbol */
+          }
+        });
+      });
+    </script>
+   <!-- JavaScript für Teilnahmebescheinigung -->
+   
+  
+    
+  </body>
+</html>
