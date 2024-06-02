@@ -221,49 +221,6 @@ nav a:hover {
   background-color: #00b688;
 }
 
-
-/* Unterlagen */
-#unterlagen {
-  padding: 50px 0;
-}
-
-#arbeitszeugnis {
-  margin-bottom: 20px; 
-}
-
-.arbeitszeugniss-pdf {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-#other-documents {
-  padding: 0 20px;
-}
-
-#projects {
-  width: 100%;
-  margin: 0 auto;
-}
-
-#projects ul {
-  padding: 0;
-}
-
-#projects ul li {
-  width: 32%;
-  float: left;
-  margin-bottom: 24px;
-}
-
-#projects img {
-  width: 100%;
-  height: auto;
-}
-
-
-
 /* Kontaktformular */
 #kontakt {
   background-color: #b9b9b9;
@@ -299,9 +256,7 @@ nav a:hover {
 #kontakt-formular input[type="text"],
 #kontakt-formular input[type="email"],
 #kontakt-formular textarea {
-  width: calc(
-    100% - 24px
-  );
+  width: calc(100% - 24px);
   padding: 12px;
   margin-bottom: 20px;
   border-radius: 8px;
