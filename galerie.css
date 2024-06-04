@@ -1,0 +1,15 @@
+
+.galerie-bild {
+    width: 100vw; 
+    height: auto;
+   
+  }
+  #galerie h3 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+    text-shadow: 1px 1px 1px #fff;
+  }
+  body {
+    background-color: #a7a6a6;
+  }
